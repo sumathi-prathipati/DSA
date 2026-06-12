@@ -1,1 +1,26 @@
+ELEMENT SEARCH IN AN ARRAY
 
+input: arr[] [1,2,3,4], y=3 
+output: 2
+
+Approach : here we need to search an element in the array and return the index value of that given element if 1
+and -1 if it doesnt exist 
+initialize Variable let say aus = -1
+
+then check every element using for loop Weather the element matches or not if match return index value
+Othervise previously initialized ans=-1 will return
+
+Problem:
+
+int aus= -1;
+for (int i=0; i < arr. length; i++) {
+if (arr[i] = = x) {
+aus=i;
+break;
+}
+}
+retunu ans;
+
+True complexity: O(n)
+Space complexity: 0(1)
+Algontum: Linear Search.
